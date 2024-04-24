@@ -18,6 +18,8 @@ db.init().then(() => {
     app.listen(3000, () => console.log('Listening on port 3000'));
 }).catch((err) => {
     console.error(err);
+    console.log("hello from index.js");
+    console.log("Docker image/layer caching");
     process.exit(1);
 });
 
